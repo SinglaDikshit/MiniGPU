@@ -124,7 +124,10 @@ Each thread has:
 - Support `BRnzp` instructions for loops and conditionals
 - All threads must converge at each PC (naïve model)
 
+
 ---
+
+![SoC_layout](images/architecture.png)
 
 ## ISA
 
@@ -165,6 +168,8 @@ Each thread:
 - Follows SIMD model
 
 ---
+
+![SoC_layout](images/thread.png)
 
 ## Kernels
 
