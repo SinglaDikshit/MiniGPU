@@ -22,7 +22,6 @@ Built with **<15 files** of fully documented Verilog, complete documentation on 
 - [Kernels](#kernels)
   - [Matrix Addition](#matrix-addition)
   - [Matrix Multiplication](#matrix-multiplication)
-- [Simulation](#simulation)
 - [Advanced Functionality](#advanced-functionality)
 - [Next Steps](#next-steps)
 
@@ -254,31 +253,6 @@ STR R9, R8
 
 RET
 ```
-
----
-
-## Simulation
-
-### Prerequisites
-
-- `iverilog`: `brew install icarus-verilog`
-- `cocotb`: `pip3 install cocotb`
-- `sv2v`: [Download](https://github.com/zachjs/sv2v/releases) and place in `$PATH`
-- Run `mkdir build` in root
-
-### To Run
-
-```bash
-make test_matadd
-make test_matmul
-```
-
-### Output
-
-Check `test/logs/` for:
-
-- Initial and final data memory
-- Complete per-cycle execution trace
 
 ---
 
